@@ -1,0 +1,107 @@
+/* Canvas */
+
+body, html {
+  background-color: #f6f6f6;
+}
+
+#painting {
+  background-color: #fff4db;
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-shadow: 10px 10px 0px #8d8d8d;
+}
+
+#toprow {
+  height: 290px;
+}
+
+/* Box IDs */
+#bigbox {
+  height: 290px;
+  width: 290px;
+}
+
+#mediumbox {
+  height: 140px;
+  width: 100px;
+}
+
+#smallbox_right {
+  height: 45px;
+  width: 20px;
+}
+
+
+#bottom_middle_box {
+  height: 100px;
+  width: 260px;
+}
+
+#bottom_left_box {
+  height: 100px;
+  width: 100px;
+}
+
+
+/* Color Classes */
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+
+
+/* Divider IDs */
+#divider1 {
+  height: 290px;
+  width: 10px;
+}
+
+#divider2 {
+  height: 10px;
+  width: 100px;
+}
+
+#divider3 {
+  height: 100px;
+  width: 10px;
+}
+
+#middlerow {
+  height: 10px;
+  width: 400px;
+  background-color: black;
+  float: right;
+}
+
+#middlerow_divider {
+  height: 10px;
+  width: 400px;
+}
+
+#smallbox_divider {
+  height: 10px;
+  width: 20px;
+}
